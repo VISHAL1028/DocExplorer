@@ -74,7 +74,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
 
         {/* Subheadline */}
         <p className="text-[16px] md:text-[18px] text-[#c7c4d8] max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
-          Upload PDFs, Word docs, CSVs, or Markdown. DocMind indexes your files with pgvector embeddings and delivers
+          Upload PDFs, Word docs, CSVs, or Markdown. DocExplorer indexes your files with pgvector embeddings and delivers
           cited, hallucination-free synthesis powered by state-of-the-art LLMs.
         </p>
 
@@ -212,7 +212,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
                     <div className="w-6 h-6 rounded-lg bg-[#8781ff] text-[#100069] flex items-center justify-center font-bold">
                       <span className="material-symbols-outlined text-[16px]">smart_toy</span>
                     </div>
-                    <span className="text-[16px] text-[#e4e1eb] font-semibold">DocMind Synthesis Stream</span>
+                    <span className="text-[16px] text-[#e4e1eb] font-semibold">DocExplorer Synthesis Stream</span>
                   </div>
                   <span className="px-2.5 py-1 rounded-full bg-[#2a2931] text-[#c4c0ff] font-mono text-[11px] flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#c4c0ff] animate-ping"></span>
@@ -465,7 +465,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
                 Exact Citation Links &amp; Semantic Score Badges
               </h3>
               <p className="text-[14px] text-[#c7c4d8] mb-6 leading-relaxed">
-                Never wonder where an answer originated. DocMind appends reactive citation pills linked directly to source coordinates: original document name, page, and chunk score.
+                Never wonder where an answer originated. DocExplorer appends reactive citation pills linked directly to source coordinates: original document name, page, and chunk score.
               </p>
             </div>
 

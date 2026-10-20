@@ -51,7 +51,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
             </span>
           </div>
           <h2 className="text-[22px] font-bold text-[#e4e1eb]">
-            {activeMode === 'login' ? 'Welcome Back to DocMind' : 'Create Enterprise Account'}
+            {activeMode === 'login' ? 'Welcome Back to DocExplorer' : 'Create Enterprise Account'}
           </h2>
           <p className="text-[13px] text-[#c7c4d8] mt-1">
             {activeMode === 'login'

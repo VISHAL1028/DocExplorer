@@ -241,7 +241,7 @@ export const ChatStudioView: React.FC<ChatStudioViewProps> = ({
           {isStreaming && (
             <div className="max-w-4xl mx-auto flex items-center gap-3 text-[#c4c0ff] font-mono text-[12px] p-4 rounded-xl bg-[#1b1b22] border border-[#2a2931]">
               <span className="w-2 h-2 rounded-full bg-[#8781ff] animate-ping"></span>
-              <span>DocMind RAG synthesis stream receiving tokens (42 tokens/sec)...</span>
+              <span>DocExplorer synthesis stream receiving tokens (42 tokens/sec)...</span>
             </div>
           )}
 

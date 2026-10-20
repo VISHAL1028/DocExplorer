@@ -28,7 +28,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center gap-2.5 text-left group transition-transform active:scale-95"
           >
             <img
-              alt="DocMind Logo"
+              alt="DocExplorer Logo"
               className="h-8 w-auto object-contain"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe9tFqU0fEvwbXu_hsfNPrVRuh_kXDVSGA5aCgOWEtKKPcIIn_qzZdtViXhkN4Q5sJETCEcJ7pOVp_ZFN-sqZ7pZOrQpWz85EQVW-MMfAq_29VLBfUGKk2nagDtArQbJovuw2UXSqIQRRe628q7fCw7-VBKqF5kQaltlaaT-z6QiLFbGbtkc-Oi36YEpWH_yc2_2hXinaQLjAXXqmNSEoP7BCkAuh2m2vrwxFDjaQxO0ARFZIK_w"
               onError={(e) => {
@@ -36,10 +36,7 @@ export const Header: React.FC<HeaderProps> = ({
                 (e.currentTarget as HTMLElement).style.display = 'none';
               }}
             />
-            <span className="text-[20px] text-[#e4e1eb] font-bold tracking-tight">DocMind</span>
-            <span className="px-2 py-0.5 rounded-full bg-[#2a2931] text-[#c4c0ff] text-[11px] font-medium tracking-wide font-mono">
-              RAG Engine v2.0
-            </span>
+            <span className="text-[20px] text-[#e4e1eb] font-bold tracking-tight">DocExplorer</span>
           </button>
 
           <nav className="hidden lg:flex items-center gap-1">
