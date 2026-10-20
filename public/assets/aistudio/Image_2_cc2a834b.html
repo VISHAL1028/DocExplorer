@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#c4c0ff","surface-container-lowest":"#0e0e14","on-surface-variant":"#c7c4d8","on-primary":"#2000a4","tertiary-container":"#ff506f","surface":"#13131a","secondary-fixed":"#55fcd0","on-primary-fixed-variant":"#3622ca","on-tertiary-fixed":"#40000f","on-error-container":"#ffdad6","surface-container":"#1f1f26","on-secondary-fixed":"#002118","primary-fixed-dim":"#c4c0ff","tertiary":"#ffb2b8","on-secondary-container":"#005441","surface-container-low":"#1b1b22","on-primary-container":"#1b0091","on-surface":"#e4e1eb","on-primary-fixed":"#100069","surface-container-high":"#2a2931","primary-container":"#8781ff","secondary":"#41eec2","on-background":"#e4e1eb","secondary-container":"#00d1a7","on-tertiary-container":"#5b0019","outline-variant":"#464555","on-secondary":"#00382b","on-tertiary":"#67001e","inverse-primary":"#4f44e2","error-container":"#93000a","inverse-on-surface":"#303037","tertiary-fixed":"#ffdadb","surface-container-highest":"#34343c","surface-bright":"#393840","outline":"#918fa1","inverse-surface":"#e4e1eb","surface-dim":"#13131a","on-error":"#690005","primary-fixed":"#e3dfff","on-secondary-fixed-variant":"#00513f","error":"#ffb4ab","tertiary-fixed-dim":"#ffb2b8","surface-variant":"#34343c","surface-tint":"#c4c0ff","on-tertiary-fixed-variant":"#91002d","background":"#13131a","secondary-fixed-dim":"#28dfb5"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter":"1rem","space-xl":"2.5rem","space-md":"1rem","space-sm":"0.5rem","space-lg":"1.5rem","space-xs":"0.25rem","margin-tablet":"1.5rem","margin":"1rem","margin-desktop":"2.5rem","gutter-desktop":"1.5rem"},fontFamily:{"label-sm":["JetBrains Mono"],"headline-lg-mobile":["Inter"],"headline-sm":["Inter"],"display-lg":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"label-md":["JetBrains Mono"],"body-lg":["Inter"],"body-sm":["Inter"],"headline-lg":["Inter"],"code-inline":["JetBrains Mono"]},fontSize:{"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"500"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"500"}],"display-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"-0.005em","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-lg":["30px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"600"}],"code-inline":["12px",{"lineHeight":"16px","letterSpacing":"0em","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.5)]"><div class="h-20 w-full px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm"><img alt="DocMind Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe9tFqU0fEvwbXu_hsfNPrVRuh_kXDVSGA5aCgOWEtKKPcIIn_qzZdtViXhkN4Q5sJETCEcJ7pOVp_ZFN-sqZ7pZOrQpWz85EQVW-MMfAq_29VLBfUGKk2nagDtArQbJovuw2UXSqIQRRe628q7fCw7-VBKqF5kQaltlaaT-z6QiLFbGbtkc-Oi36YEpWH_yc2_2hXinaQLjAXXqmNSEoP7BCkAuh2m2vrwxFDjaQxO0ARFZIK_w"/><span class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">DocMind</span><span class="px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">RAG Engine v2.0</span></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-primary font-medium rounded-lg"><a aria-current="page" class="px-3 py-2 transition-colors bg-surface-container-high text-primary font-medium rounded-lg" data-path="landing" href="#">Landing</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface transition-colors font-body-md text-body-md" data-path="chat-studio" href="#">Chat Studio</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface transition-colors font-body-md text-body-md" data-path="documents" href="#">Documents</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface transition-colors font-body-md text-body-md" data-path="settings" href="#">Settings</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden xl:flex items-center gap-space-sm px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px] text-primary">account_circle</span><span>Guest Session (UUID: 8f9b-4e12) • Auto-migrates on Login</span></div><div class="hidden 2xl:flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-low text-secondary font-code-inline text-code-inline"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span>API connected: http://localhost:8081/api/v1</span></div><div class="flex items-center gap-space-sm"><a class="px-4 py-2 rounded-lg font-body-md text-body-md text-on-surface hover:bg-surface-container-high transition-colors" data-path="login" href="#">Login</a><a class="px-4 py-2 rounded-lg font-body-md text-body-md bg-primary-container text-on-primary-container font-medium hover:bg-primary transition-all shadow-[0_0_16px_rgba(135,129,255,0.3)]" data-path="register" href="#">Get Started / Register</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Atmospheric Glow Backdrop Elements -->
+<div class="relative w-full overflow-hidden bg-background">
+<!-- Ambient Radial Glows -->
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[550px] bg-gradient-to-b from-primary/20 via-primary-container/10 to-transparent blur-[140px] pointer-events-none rounded-full"></div>
+<div class="absolute top-[420px] -left-48 w-[500px] h-[500px] bg-secondary/10 blur-[130px] pointer-events-none rounded-full"></div>
+<div class="absolute top-[680px] -right-48 w-[600px] h-[600px] bg-primary/10 blur-[150px] pointer-events-none rounded-full"></div>
+<!-- HERO SECTION -->
+<section class="relative w-full max-w-7xl mx-auto px-margin md:px-margin-desktop pt-8 md:pt-16 pb-20 flex flex-col items-center text-center">
+<!-- Status Badge Pill -->
+<div class="inline-flex items-center gap-space-sm px-4 py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-md mb-8">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Enterprise RAG Engine v2.0</span>
+<span class="text-outline-variant font-code-inline text-code-inline">•</span>
+<span class="font-code-inline text-code-inline text-on-surface-variant">PostgreSQL pgvector Grounded</span>
+</div>
+<!-- Hero Headline with Scale & Typographic Contrast -->
+<h1 class="font-display-lg text-display-lg md:text-[54px] md:leading-[62px] text-on-surface font-bold tracking-tight max-w-4xl mx-auto mb-6">
+        Chat with your documents using <span class="bg-gradient-to-r from-primary via-primary-container to-secondary bg-clip-text text-transparent">grounded AI intelligence</span>.
+      </h1>
+<!-- Subheadline -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10 leading-relaxed">
+        Upload PDFs, Word docs, CSVs, or Markdown. DocMind indexes your files with pgvector embeddings and delivers cited, hallucination-free synthesis powered by state-of-the-art LLMs.
+      </p>
+<!-- CTA Buttons Group -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto mb-14">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-7 py-3.5 rounded-xl font-headline-sm text-headline-sm bg-primary-container text-on-primary-container font-semibold hover:bg-primary transition-all shadow-xl hover:shadow-primary/30" data-path="chat-studio" href="#">
+<span>Try in Guest Mode</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-6 py-3.5 rounded-xl font-headline-sm text-headline-sm bg-surface-container-high/90 text-on-surface hover:text-primary hover:bg-surface-container-highest transition-all shadow-sm" href="#interactive-preview">
+<span class="material-symbols-outlined text-[20px] text-secondary">play_circle</span>
+<span>View Interactive Demo</span>
+</a>
+</div>
+<!-- Quick Session Indicator -->
+<div class="flex items-center gap-3 text-on-surface-variant font-label-sm text-label-sm mb-16">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-[16px]">verified</span> Zero setup</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-[16px]">lock_open</span> Anonymous sandbox</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-[16px]">sync_alt</span> Auto-migrates to user account</span>
+</div>
+<!-- HERO VISUAL MOCKUP (Dynamic Split-Screen Workbench) -->
+<div class="w-full relative rounded-2xl bg-surface-container-lowest p-2 md:p-3 shadow-2xl backdrop-blur-2xl" id="interactive-preview">
+<!-- Workbench Shell Top Bar -->
+<div class="w-full px-4 py-2.5 rounded-xl bg-surface-container flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-tertiary-container/80"></span>
+<span class="w-3 h-3 rounded-full bg-surface-container-highest"></span>
+<span class="w-3 h-3 rounded-full bg-secondary-container/80"></span>
+<span class="ml-3 font-code-inline text-code-inline text-on-surface-variant">workbench_session_8f9b4e12.rag</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-surface-container-high text-secondary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+              Cosine Similarity: 0.942
+            </div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span>nomic-embed-text (768-dim)</span>
+<span>•</span>
+<span class="text-primary font-semibold">Gemma-2 9B-IT</span>
+</div>
+</div>
+</div>
+<!-- Split View: Source PDF & RAG Synthesizer -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-3 text-left">
+<!-- LEFT: Document Inspector / Grounded Source Document (5 Cols) -->
+<div class="lg:col-span-5 rounded-xl bg-surface-container-low p-4 flex flex-col justify-between overflow-hidden shadow-inner relative">
+<div class="flex items-center justify-between pb-3 mb-3">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-tertiary text-[20px]">picture_as_pdf</span>
+<span class="font-label-md text-label-md text-on-surface font-medium truncate">Q3_FY2025_Risk_Assessment.pdf</span>
+</div>
+<span class="px-2 py-0.5 rounded-md bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm shrink-0">Page 14 of 48</span>
+</div>
+<!-- Mini Document Preview Sheet -->
+<div class="rounded-lg bg-surface-container-lowest p-4 text-on-surface-variant font-code-inline text-code-inline leading-relaxed space-y-3 relative overflow-hidden">
+<div class="text-on-surface font-headline-sm text-headline-sm font-semibold mb-2">Section 4.3: Cloud Infrastructure Redundancy</div>
+<p class="opacity-60 text-body-sm text-body-sm font-body-sm">
+                Primary data center failovers are executed across dual-availability regions within 45 seconds of signal degradation. Automated health checks poll heartbeat services every 500 milliseconds.
+              </p>
+<!-- Grounded Chunk Highlight -->
+<div class="p-3 rounded-lg bg-secondary-container/10 shadow-sm relative">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bolt</span> RETRIEVED CHUNK #chunk-8821
+                  </span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary/10 px-2 py-0.5 rounded">98.4% Match</span>
+</div>
+<p class="text-on-surface text-body-sm text-body-sm font-body-sm italic">
+                  "The disaster recovery strategy guarantees a Recovery Time Objective (RTO) under 3 minutes and a Recovery Point Objective (RPO) of zero for all pgvector semantic knowledge stores."
+                </p>
+</div>
+<p class="opacity-60 text-body-sm text-body-sm font-body-sm">
+                Compliance mandates ISO/IEC 27001 zero-trust access control protocols throughout pipeline staging tiers and asynchronous webhook handlers.
+              </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>Verified in Postgres Vector Store</span>
+</div>
+<span>SHA-256: d84f...c10b</span>
+</div>
+</div>
+<!-- RIGHT: AI Synthesizer Stream & Interactive Citation Chips (7 Cols) -->
+<div class="lg:col-span-7 rounded-xl bg-surface p-5 flex flex-col justify-between shadow-sm">
+<div>
+<!-- Stream Header -->
+<div class="flex items-center justify-between pb-3 mb-4">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-lg bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary-container text-[16px]">smart_toy</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">DocMind Synthesis Stream</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+                  SSE Streaming (42 tps)
+                </span>
+</div>
+<!-- User Query Node -->
+<div class="p-3.5 rounded-xl bg-surface-container-high mb-4">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider block mb-1">Human Prompt</span>
+<p class="font-body-md text-body-md text-on-surface font-medium">
+                  What are our disaster recovery commitments and failover targets for the vector database?
+                </p>
+</div>
+<!-- Synthesized Answer with Inline Citation Chips -->
+<div class="p-4 rounded-xl bg-surface-container-low mb-4 relative overflow-hidden">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Strictly Grounded Retrieval</span>
+</div>
+<div class="space-y-3 font-body-md text-body-md text-on-surface leading-relaxed">
+<p>
+                    Based on your verified internal document, the architecture implements dual-availability failovers triggered within 45 seconds of anomaly detection.
+                  </p>
+<p>
+                    Specifically, the disaster recovery commitment establishes a Recovery Time Objective 
+                    <span class="inline-flex items-center gap-1 px-2 py-0.5 mx-1 rounded-full bg-secondary/10 text-secondary font-label-sm text-label-sm shadow-sm cursor-pointer hover:bg-secondary/20 transition-colors">
+<span class="material-symbols-outlined text-[13px]">bookmark</span>
+                      (RTO < 3 mins)
+                      <span class="font-mono text-[10px] opacity-75">p.14</span>
+</span>
+                    and maintains a Recovery Point Objective of zero
+                    <span class="inline-flex items-center gap-1 px-2 py-0.5 mx-1 rounded-full bg-secondary/10 text-secondary font-label-sm text-label-sm shadow-sm cursor-pointer hover:bg-secondary/20 transition-colors">
+<span class="material-symbols-outlined text-[13px]">dataset</span>
+                      (RPO = 0)
+                      <span class="font-mono text-[10px] opacity-75">#chunk-8821</span>
+</span>
+                    specifically guarded for all pgvector stores.
+                  </p>
+</div>
+</div>
+<!-- Grounded Evidence Drawer (Citations List) -->
+<div class="rounded-xl bg-surface-container p-3 space-y-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm flex items-center justify-between">
+<span class="font-semibold text-on-surface uppercase tracking-wider">Indexed References (2 Sources)</span>
+<span>100% Grounded • 0% Extrapolation</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+<div class="p-2.5 rounded-lg bg-surface-container-high flex flex-col justify-between">
+<div class="flex items-center justify-between mb-1">
+<span class="font-code-inline text-code-inline text-on-surface truncate">Q3_FY2025_Risk.pdf</span>
+<span class="text-secondary font-label-sm text-label-sm font-bold">0.98 Sim</span>
+</div>
+<div class="w-full bg-surface-container-lowest h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 98%;"></div>
+</div>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container-high flex flex-col justify-between">
+<div class="flex items-center justify-between mb-1">
+<span class="font-code-inline text-code-inline text-on-surface truncate">Infra_SLA_Doc.docx</span>
+<span class="text-primary font-label-sm text-label-sm font-bold">0.89 Sim</span>
+</div>
+<div class="w-full bg-surface-container-lowest h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 89%;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Omni Input Teaser inside Mockup -->
+<div class="mt-4 pt-3 flex items-center gap-2">
+<div class="flex-1 bg-surface-container-high rounded-xl px-4 py-2.5 flex items-center justify-between shadow-inner">
+<span class="text-on-surface-variant font-body-sm text-body-sm">Ask a clarifying question about RTO failover steps...</span>
+<span class="font-label-sm text-label-sm text-outline px-1.5 py-0.5 rounded bg-surface-container">↵ Enter</span>
+</div>
+<button class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-md hover:bg-primary-fixed transition-colors">
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: 4-STEP INTERACTIVE RAG PIPELINE -->
+<section class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop py-16">
+<div class="text-center max-w-3xl mx-auto mb-14">
+<div class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold mb-2">Deterministic Reasoning Engine</div>
+<h2 class="font-headline-lg text-headline-lg md:text-[36px] md:leading-[44px] text-on-surface font-bold">
+          High-throughput RAG Pipeline in 4 Steps
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+          Every assertion maps directly to your uploaded content. Unmodified raw embeddings with mathematically verifiable similarity rankings.
+        </p>
+</div>
+<!-- Pipeline Steps Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative">
+<!-- Step 1 -->
+<div class="rounded-2xl bg-surface-container-low p-6 flex flex-col justify-between hover:bg-surface-container transition-all group shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary-container/20 text-primary flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">upload_file</span>
+</div>
+<div class="font-code-inline text-code-inline text-primary uppercase tracking-wider mb-1 font-bold">Step 01 / Ingestion</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">Multi-Format Ingest</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Extract raw textual blocks and clean layouts from PDF, DOCX, TXT, and CSV documents up to 100MB per file with automatic page preservation.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-lowest/60 -mx-6 -mb-6 px-6 py-3 rounded-b-2xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-secondary">memory</span>
+              Apache Tika parser integrated
+            </span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="rounded-2xl bg-surface-container-low p-6 flex flex-col justify-between hover:bg-surface-container transition-all group shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 text-secondary flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">hub</span>
+</div>
+<div class="font-code-inline text-code-inline text-secondary uppercase tracking-wider mb-1 font-bold">Step 02 / Vectorizing</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">pgvector Embeddings</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Chunked text segments are embedded using Ollama <code class="text-secondary font-mono text-[11px]">nomic-embed-text</code> yielding dense 768-dimensional vector representations.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-lowest/60 -mx-6 -mb-6 px-6 py-3 rounded-b-2xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-secondary">database</span>
+              HNSW index in PostgreSQL
+            </span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="rounded-2xl bg-surface-container-low p-6 flex flex-col justify-between hover:bg-surface-container transition-all group shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary-container/20 text-primary flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">manage_search</span>
+</div>
+<div class="font-code-inline text-code-inline text-primary uppercase tracking-wider mb-1 font-bold">Step 03 / Matching</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">Semantic Top-K Retrieval</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Incoming queries trigger cosine distance scans with strict thresholding, isolating only the most relevant document chunks for the contextual prompt window.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-lowest/60 -mx-6 -mb-6 px-6 py-3 rounded-b-2xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-secondary">speed</span>
+              < 18ms latency @ 1M vectors
+            </span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="rounded-2xl bg-surface-container-low p-6 flex flex-col justify-between hover:bg-surface-container transition-all group shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 text-secondary flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">psychology</span>
+</div>
+<div class="font-code-inline text-code-inline text-secondary uppercase tracking-wider mb-1 font-bold">Step 04 / Synthesis</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-2">Grounded Generation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Frontier models generate verifiable answers locked down with system prompt constraints to prohibit hallucination and inject exact citation tokens.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-lowest/60 -mx-6 -mb-6 px-6 py-3 rounded-b-2xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-secondary">verified</span>
+              Zero-extrapolation guarantee
+            </span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: FEATURE GRID & ARCHITECTURAL ADVANTAGES -->
+<section class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop py-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Engine Capabilities</span>
+<h2 class="font-headline-lg text-headline-lg md:text-[36px] text-on-surface font-bold mt-1">Built for Mission-Critical Precision</h2>
+</div>
+<p class="text-on-surface-variant font-body-md text-body-md max-w-md">
+          Designed for technical, compliance, and research workflows where factual accuracy is paramount and unverifiable answers are unacceptable.
+        </p>
+</div>
+<!-- Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Large Bento 1: Grounded Citations & Confidence (2 Cols) -->
+<div class="md:col-span-2 rounded-2xl bg-surface-container-low p-8 relative overflow-hidden flex flex-col justify-between shadow-md">
+<div class="max-w-xl">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined">fact_check</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-3">Exact Citation Links & Semantic Score Badges</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+              Never wonder where an answer originated. DocMind appends reactive citation pills linked directly to source coordinates: original document name, page, and chunk score.
+            </p>
+</div>
+<!-- Interactive Graphic Demonstration -->
+<div class="w-full rounded-xl bg-surface-container-lowest p-5 space-y-3">
+<div class="flex flex-wrap items-center gap-3">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-high">
+<span class="material-symbols-outlined text-secondary text-[16px]">menu_book</span>
+<span class="font-code-inline text-code-inline text-on-surface">SOC2_Audit_Report.pdf</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary/10 px-2 py-0.5 rounded">p. 32</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-high">
+<span class="material-symbols-outlined text-primary text-[16px]">description</span>
+<span class="font-code-inline text-code-inline text-on-surface">Data_Processing_Addendum.docx</span>
+<span class="font-label-sm text-label-sm text-primary bg-primary/10 px-2 py-0.5 rounded">p. 4</span>
+</div>
+</div>
+<div class="p-3 rounded-lg bg-surface-container flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">Top-1 Cosine Distance: <strong>0.058 (94.2% Similarity)</strong></span>
+<span class="text-secondary font-mono">Status: Verified Grounded</span>
+</div>
+</div>
+</div>
+<!-- Bento 2: Real-time Streaming (1 Col) -->
+<div class="rounded-2xl bg-surface-container-low p-8 flex flex-col justify-between shadow-md">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined">stream</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-3">Instant Token Streaming</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              High-throughput Server-Sent Events (SSE) stream synthesized tokens directly from Ollama or OpenRouter with sub-second time-to-first-token.
+            </p>
+</div>
+<div class="mt-6 pt-4 rounded-xl bg-surface-container p-4">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-2">
+<span>Streaming throughput</span>
+<span class="text-secondary font-mono">48.2 tokens/sec</span>
+</div>
+<div class="w-full bg-surface-container-lowest h-2 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-primary to-secondary h-full rounded-full" style="width: 78%;"></div>
+</div>
+</div>
+</div>
+<!-- Bento 3: Guest Mode & Transparent Claiming (1 Col) -->
+<div class="rounded-2xl bg-surface-container-low p-8 flex flex-col justify-between shadow-md">
+<div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined">fingerprint</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-3">Frictionless Guest Sandbox</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Every anonymous visitor gets an instant isolated UUID session. Upload, embed, and test documents immediately. All vector indices silently claim into your permanent account when you register.
+            </p>
+</div>
+<div class="mt-6 p-3.5 rounded-xl bg-surface-container flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">cached</span>
+<div class="text-left font-label-sm text-label-sm">
+<div class="text-on-surface font-bold">Session Auto-Migration</div>
+<div class="text-on-surface-variant">0 ms data transfer overhead</div>
+</div>
+</div>
+</div>
+<!-- Large Bento 4: Bulk Ingestion Engine (2 Cols) -->
+<div class="md:col-span-2 rounded-2xl bg-surface-container-low p-8 flex flex-col justify-between shadow-md">
+<div class="max-w-xl">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined">layers</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-3">Live Status Polling & Asynchronous Parsing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+              Track document pipeline states in real-time. Drop multi-gigabyte corpora and observe lifecycle transitions from <code class="text-primary font-mono text-xs">UPLOADING</code> to <code class="text-primary font-mono text-xs">PROCESSING</code> to <code class="text-secondary font-mono text-xs">INDEXED</code>.
+            </p>
+</div>
+<!-- Live Pipeline Visualizer -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<div class="p-3.5 rounded-xl bg-surface-container flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">cloud_upload</span>
+</div>
+<div>
+<span class="font-code-inline text-code-inline text-on-surface-variant uppercase">Phase 1</span>
+<div class="font-label-sm text-label-sm text-on-surface font-bold">Async Upload</div>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">transform</span>
+</div>
+<div>
+<span class="font-code-inline text-code-inline text-primary uppercase">Phase 2</span>
+<div class="font-label-sm text-label-sm text-on-surface font-bold">Ollama Chunking</div>
+</div>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-secondary/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">done_all</span>
+</div>
+<div>
+<span class="font-code-inline text-code-inline text-secondary uppercase">Phase 3</span>
+<div class="font-label-sm text-label-sm text-on-surface font-bold">pgvector Indexed</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: ENTERPRISE TECH STACK BANNER -->
+<section class="w-full bg-surface-container-lowest/80 py-12 shadow-inner">
+<div class="max-w-7xl mx-auto px-margin md:px-margin-desktop flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest font-semibold mb-6">
+          Architected on Industry Standard Frameworks
+        </span>
+<div class="w-full flex flex-wrap items-center justify-center gap-6 md:gap-12">
+<!-- Stack Item 1 -->
+<div class="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-surface-container-high/60 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">code_blocks</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Spring Boot 4.1.1</span>
+</div>
+<!-- Stack Item 2 -->
+<div class="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-surface-container-high/60 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">psychology_alt</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Spring AI 2.0.1</span>
+</div>
+<!-- Stack Item 3 -->
+<div class="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-surface-container-high/60 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">dns</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">PostgreSQL + pgvector</span>
+</div>
+<!-- Stack Item 4 -->
+<div class="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-surface-container-high/60 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">terminal</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Ollama Local AI</span>
+</div>
+<!-- Stack Item 5 -->
+<div class="flex items-center gap-2.5 px-4 py-2 rounded-xl bg-surface-container-high/60 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">router</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">OpenRouter Gateways</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: READY TO START CTA WITH INSTANT DROPZONE TEASER -->
+<section class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop py-20">
+<div class="relative rounded-3xl bg-gradient-to-br from-surface-container-high via-surface-container to-surface-container-low p-8 md:p-14 overflow-hidden shadow-2xl">
+<!-- Accent Glows Inside Card -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-primary/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 -top-20 w-80 h-80 bg-secondary/15 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Text and Action Details (7 Cols) -->
+<div class="lg:col-span-7 space-y-6 text-left">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-highest text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">bolt</span> Instant Evaluation
+            </div>
+<h2 class="font-display-lg text-display-lg md:text-[42px] md:leading-[50px] text-on-surface font-bold tracking-tight">
+              Ready to interrogate your documents with real citations?
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+              Launch into guest mode right now. No email required. Drop an NDA, technical spec, or financial statement and receive your first grounded synthesis in seconds.
+            </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center gap-space-sm px-8 py-4 rounded-xl font-headline-sm text-headline-sm bg-primary-container text-on-primary-container font-semibold hover:bg-primary transition-all shadow-xl hover:shadow-primary/30" data-path="chat-studio" href="#">
+<span>Open Chat Studio</span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-sm px-6 py-4 rounded-xl font-headline-sm text-headline-sm bg-surface-container-highest text-on-surface hover:text-secondary transition-colors" data-path="documents" href="#">
+<span class="material-symbols-outlined">folder_open</span>
+<span>Manage Knowledge Bases</span>
+</a>
+</div>
+</div>
+<!-- Dropzone Teaser Box (5 Cols) -->
+<div class="lg:col-span-5">
+<div class="rounded-2xl bg-surface-container-lowest/80 p-8 flex flex-col items-center justify-center text-center cursor-pointer transition-all hover:bg-surface-container-lowest hover:shadow-2xl" id="dropzone-teaser">
+<div class="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[36px]">cloud_upload</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-1">
+                Drop your document here
+              </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs mb-4">
+                Drag and drop PDF, DOCX, CSV or Markdown up to 100MB
+              </p>
+<div class="px-4 py-2 rounded-lg bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">add</span>
+                Browse Local Files
+              </div>
+<div class="mt-4 flex items-center gap-2 text-on-surface-variant font-code-inline text-code-inline">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>pgvector index ready</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<script>
+  // Simple interactive dropzone teaser micro-interaction
+  const dropzone = document.getElementById('dropzone-teaser');
+  if (dropzone) {
+    dropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropzone.classList.add('bg-surface-container-high');
+    });
+    dropzone.addEventListener('dragleave', () => {
+      dropzone.classList.remove('bg-surface-container-high');
+    });
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('bg-surface-container-high');
+      alert('Document received! Transitioning to Guest Workspace for parsing...');
+      const studioLink = document.querySelector('[data-path="chat-studio"]');
+      if (studioLink) studioLink.click();
+    });
+    dropzone.addEventListener('click', () => {
+      const studioLink = document.querySelector('[data-path="chat-studio"]');
+      if (studioLink) studioLink.click();
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-lowest py-space-xl shadow-[0_-1px_8px_rgba(0,0,0,0.4)]"><div class="w-full px-gutter-desktop flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-sm"><span class="font-label-sm text-label-sm text-on-surface font-semibold">DocMind Engine</span><span>© 2025 Synthetic Reasoning & Retrieval Corp.</span></div><div class="flex items-center gap-space-lg font-label-sm text-label-sm"><span>Status: Nominal</span><span>Latency: 28ms</span><span>Tokens: 128k Context</span></div></div></footer></body></html>

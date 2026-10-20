@@ -1,0 +1,6 @@
+{
+  "name": "DocMind RAG Engine",
+  "description": "Grounded AI intelligence platform with pgvector embeddings, interactive citation tracking, and Spring Boot backend integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

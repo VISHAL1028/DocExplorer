@@ -1,0 +1,242 @@
+---
+name: Luminous Intelligence
+colors:
+  surface: '#13131a'
+  surface-dim: '#13131a'
+  surface-bright: '#393840'
+  surface-container-lowest: '#0e0e14'
+  surface-container-low: '#1b1b22'
+  surface-container: '#1f1f26'
+  surface-container-high: '#2a2931'
+  surface-container-highest: '#34343c'
+  on-surface: '#e4e1eb'
+  on-surface-variant: '#c7c4d8'
+  inverse-surface: '#e4e1eb'
+  inverse-on-surface: '#303037'
+  outline: '#918fa1'
+  outline-variant: '#464555'
+  surface-tint: '#c4c0ff'
+  primary: '#c4c0ff'
+  on-primary: '#2000a4'
+  primary-container: '#8781ff'
+  on-primary-container: '#1b0091'
+  inverse-primary: '#4f44e2'
+  secondary: '#41eec2'
+  on-secondary: '#00382b'
+  secondary-container: '#00d1a7'
+  on-secondary-container: '#005441'
+  tertiary: '#ffb2b8'
+  on-tertiary: '#67001e'
+  tertiary-container: '#ff506f'
+  on-tertiary-container: '#5b0019'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e3dfff'
+  primary-fixed-dim: '#c4c0ff'
+  on-primary-fixed: '#100069'
+  on-primary-fixed-variant: '#3622ca'
+  secondary-fixed: '#55fcd0'
+  secondary-fixed-dim: '#28dfb5'
+  on-secondary-fixed: '#002118'
+  on-secondary-fixed-variant: '#00513f'
+  tertiary-fixed: '#ffdadb'
+  tertiary-fixed-dim: '#ffb2b8'
+  on-tertiary-fixed: '#40000f'
+  on-tertiary-fixed-variant: '#91002d'
+  background: '#13131a'
+  on-background: '#e4e1eb'
+  surface-variant: '#34343c'
+typography:
+  display-lg:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.005em
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: -0.01em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.02em
+  code-inline:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 1.5rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system embodies deep focus, hyper-precision, and latent computational intelligence. Crafted specifically for dense AI-driven document orchestration, contextual search, and high-throughput Retrieval-Augmented Generation (RAG) workspaces, it strips away cognitive friction while framing synthetic reasoning in an elite, obsidian canvas.
+
+### Visual Style
+- **Cyber-Glassmorphism meets Linear Utility**: Deep black and indigo-tinted obsidian foundations layered with crisp 1px structural glass borders, subtle inner radiance, and ambient electric purple backlights.
+- **Atmospheric Depth**: Controlled luminescence using soft, focused diffusion rings (`rgba(108, 99, 255, 0.15)` to `0.35`) behind active model outputs, vector chunk visualizations, and synthesis streams.
+- **Information Density**: Compact horizontal alignments, hairline separators, and micro-metric badges tuned for technical operators, legal teams, researchers, and data scientists parsing dense reference corpora.
+
+## Colors
+
+The palette operates strictly in dark mode, balancing an absolute dark abyss with high-vibrancy electrical accents to guide visual hierarchy across multi-document workflows.
+
+### Color Tokens & Semantics
+- **Background Root (`#0a0a0f`)**: Deep void canvas. Used for the viewport base, outer application shell, and primary reading plane.
+- **Surface Level 1 (`#111118`)**: Grounding surface for persistent sidebars, top utility headers, and contextual inspection panels.
+- **Surface Level 2 / Card (`#16161f`)**: Glass-backed layer for document tiles, interactive chat cells, citation inspector drawers, and vector payload cards.
+- **Border Subtle (`#2a2a3a`)**: Low-contrast hairline dividers (`1px solid`) providing edge separation across dark fields without visual noise.
+- **Primary / Electric Purple (`#6c63ff`)**: System ignition color. Used for active generation indicators, focal CTAs, neural pathway nodes, and focus rings with a signature glow (`rgba(108, 99, 255, 0.3)`).
+- **Secondary / Hyper Teal (`#00d4aa`)**: Verified citation markers, similarity score badges (IJKİXØÙ\ÜÙ[[X™Y[™ÜË[™Ûİ\˜ÙK[X]Ú[™È[˜ÚÜœË‚‹H
+Š•\X\HÈÜš[\ÛÛˆ›ÜÙH
+Ù™™
+JŠˆ[™Ù\İ[Ûˆ\œ›ÜœË[XÚ[˜][ÛˆØ\›š[™ÜËİËXÛÛ™šY[˜ÙHX]ÚØÛÜ™\Ë[™\İXİ]™HXİ[ÛœË‚‹H
+Š•^]™[ÊŠ‚ˆHš[X\NˆÙŒŒX
+MIHÛÛ˜\İ˜][ÈYØZ[œİÌLL˜
+BˆHÙXÛÛ™\NˆØLLX
+ÛÛ^X[\ØÜš\ÜœËš[HY]K]]ÜˆYÜÊBˆH]]YˆÍXMXMÌ˜
+[™H[X™\œË\ÜÚ]™HXÛÛœË›Ü™\ˆİ[\ÊB‚ˆÈÈ\ÙÜ˜\B‚•H\ÙÜ˜\XÈ˜[[˜ÙH™[Y\ÈÛˆHX[Y[™Ú[™HŞ\İ[N‚ŒKˆ
+Š’[\ŠŠˆ[™\È˜\œ˜]]™H›İË˜]\˜[[™İXYÙH[œİÙ\œË[\™˜XÙH]\Ë[™X[ÙİYKˆ]ÈYÚ˜XÚÚ[™È[™ÛX[ˆÙ[ÛY]H™]™[^YH˜]YİYH\š[™È›ÛÛ™ÙY[˜[]XØ[Ù\ÜÚ[ÛœË‚Œ‹ˆ
+Š’™]œ˜Z[œÈ[Û›ÊŠˆÜ\˜]\È\ÈHÛÙÛš]]™H™\šYšXØ][Ûˆ^Y\‹ˆÚ[™]™\ˆH]HÚ[™\™\Ù[ÈHÚ[šÈ[™^[X™Y[™È™XİÜˆÛÛÜ™[˜]KÚ]][ÛˆYÙH™Y™\™[˜ÙKÚÙ[ˆÛİ[Üˆš[HÚXÚÜİ[K]™[™\œÈİšXİH[ˆ™]œ˜Z[œÈ[Û›Ë‚‚’XY[™\È[\ŞHÛYÚ™YØ]]™H˜XÚÚ[™È
+LŒ™[XÈLŒÙ[X
+H›ÜˆHÛÚ\Ú]™K[Ù\›ˆY]ÜšX[™Y[™[Z[š\ØÙ[Ùˆ]™[Ü\‹XÙ[šXÈÛÛË‚‚ˆÈÈ^[İ]	ˆÜXÚ[™Â‚•HŞ\İ[H]™\˜YÙ\ÈHXœšYÚ[ˆHØÚÙYËXÛÛ[[ˆÛÜšØ™[˜Ú\˜Ú]Xİ\™H›ÜˆØİ[Y[[[YÙ[˜ÙH
+YˆÛÜœ\È˜]šYØ][ÛÈÙ[\ˆŞ[\Ú\ÈØ[˜\ÎÈšYÚˆÛİ\˜ÙH[œÜXİ[Ûˆ	ˆÜ›İ[™[™ÊK‚‚ˆÈÈÈ™\ÜÛœÚ]™H^[İ]İ˜]YŞB‹H
+Š‘\ÚİÜ
+HL
+JŠˆL‹XÛÛ[[ˆ[˜[ZXÈÛÜšÈÜšYÚ]K\™[Xİ]\œËˆYÚYX˜\ˆÜ[œÈ¸ $ÌÈÛÛ[[œÈ
+ÛÛ\ÚX›HÈXÛÛˆ˜\ŠKš[X\HQÈİ™X[HÜ[œÈx $ÍˆÛÛ[[œËšYÚ[œÜXİÜˆ˜]Ù\ˆÜ[œÈø $ÍÛÛ[[œË‚‹H
+Š•X›]
+ÍHLÎ\
+JŠˆXZ[ˆŞ[\Ú\ÈØ[˜\Èİ^\È[]ÚYˆ˜]šYØ][Ûˆ™]™X]È[È[ˆİ™\›^H˜]Ù\‹ˆHÛİ\˜ÙH™\šYšXØ][Ûˆ˜]Ù\ˆ˜[œÙ›Ü›\È[ÈHÛYK[İ™\ˆÚY]šYÙÙ\™YH[›[™HÚ]][ÛˆÚ\Ë‚‹H
+Š“[Øš[H
+Í
+JŠˆÚ[™ÛHÛÛ[[ˆİ™X[HÚ]İXÚÙYšY]ÜËˆİ]\ˆX\™Ú[ˆÛÛ\™\ÜÙ\ÈÈ\™[XˆÙXÛÛ™\H[˜[]XØ[Y]šXÜÈÛÛ™\ÈÜš^›Û[\ØÜ›Û[™ÈÚ\˜Z[Ë‚‚ˆÈÈÈÜXÚ[™ÈØY[˜ÙBÛÛ\Û™[Y[™È[™[\‹Z][HØ\ÈY\™HİšXİHÈHX][X]XØ[ØØ[KˆYÚÛ\İ\œÈ
+Y]K]YÜËÚ]][ÛˆÚ\ÊHÛ˜\ÈÜXÙK^Ø
+
+H[™ÜXÙK\ÛX
+
+KÚ[HÛÛZ[™\ˆYÈ]™\˜YÙHÜXÙK[Y
+Mœ
+H[™ÜXÙK[Ø
+
+K‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‚•š\İX[Y\˜\˜ÚH\Ù\ÈÙ[ZK]˜[œÛXÙ[ÛÛ\ÜÚ]H]\È˜]\ˆ[ˆ˜Y][Û˜[›ÜÚYİÜËˆÚYİÜÈ[ˆ\ÈŞ\İ[HXİ\È›ØØ[ÛİÜÈ˜]\ˆ[ˆYÚØ\İH[ˆİ™\šXY[\‚‚ˆÈÈÈÛ˜[Y\˜\˜ÚB‹H
+Š“]™[
+˜\ÙHØ[˜\ÊJŠˆÛÛYÌLL˜ˆ™XÙZ]™\ÈİXH˜YX[Ü˜YY[YÚÛÛ™\È
+™Ø˜JLNKMKŒ
+X
+HÈœ™XZÈ\™H›XÚÈ[Û›İÛK‚‹H
+Š“]™[H
+İXİ\˜[˜Z[	ˆ˜]šYØ][ÛŠJŠˆ˜XÚÙÜ›İ[™ÌLLLLNÚ]˜XÚÙ›ÜYš[\ˆ›\ŠLœ
+Xˆİ][™YHHšYÚÜˆ›İÛH›Ü™\ˆÙˆ\ÛÛYÌ˜L˜LØX‚‹H
+Š“]™[ˆ
+Ø\™È	ˆİ™X[Z[™È›ØÚÜÊJŠˆ˜XÚÙÜ›İ[™™Ø˜JŒ‹Œ‹ÌKÍJXÚ]˜XÚÙ›ÜYš[\ˆ›\ŠMœ
+X[™[ˆ[\›˜[›Ş\ÚYİÎˆ[œÙ]\™Ø˜JMKMKMKŒJX‚‹H
+Š“]™[È
+›Ø][™ÈÜİ™\œÈ	ˆÚ]][ÛœÊJŠˆ˜XÚÙÜ›İ[™™Ø˜J‹‹ÎLŠXÚ]˜XÚÙ›ÜYš[\ˆ›\ŠŒ
+X›Ü™\ˆ\ÛÛY™Ø˜JLNKMKŒJX[™[ˆ[XšY[›Øİ\Èš[™ÎˆÌœM™Ø˜JÊKMœ™Ø˜JLNKMKŒMJX‚‹H
+ŠXİ]™Hİ]H˜YX[˜ÙJŠˆ›Øİ\ÙY[œ]È[™Ù[™\˜][™ÈRHÙ[È›Ú™Xİ[ˆ[XİšXÈ[Îˆ›Ş\ÚYİÎˆ\Í˜ÍŒÙ™‹Œ™Ø˜JLNKMKŒÊX‚‚ˆÈÈÚ\\Â‚•H[\™˜XÙH˜[[˜Ù\ÈÚ\œXÚšXØ[™XÚ\Ú[ÛˆÚ][X[š^™YÛÙØ\™Hİ\™\Ëˆ‚‹H
+Š“]™[ˆ
+›İ[™Y
+JŠˆ\İX›\Ú\ÈH˜\ÙHÛÜ›™\ˆ˜Y]\ÈÙˆ\™[X
+
+H›Üˆ]ÛœË[œ]ËÙYÛY[YÛÛ›ÛË[™Y]šXÈ[\Ë‚‹H
+ŠØ\™È	ˆ[Ù[È
+›İ[™Y[Ø
+JŠˆØØ[HÈ\™[X
+Mœ
+HÈÛÛY›ÜX›HÜ˜\[œÙH[\›˜[[[Y[ÈÚ[H™\Ù\š[™ÈÜš\Ü›Ü™\ˆYš[š][Û‹‚‹H
+Š”[Ù[ÛY]JŠˆ™\Ù\™YİšXİH›ÜˆZXÜ›Èİ]\ÈYÜËÚ[Z[\š]HØÛÜ™\ËÚÙ[ˆÛİ[Ë[™[\˜Xİ]™HÚ]][Ûˆ[˜ÚÜœÈ
+›Ü™\‹\˜Y]\ÎˆNNN\
+K‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\HXİ[ÛŠŠˆÛÛYÍ˜ÍŒÙ™˜š[Ú]Ú]HÙ™™™™™˜^›Û[\˜LÙZYÚˆİXHÜ[›™\ˆYÚYÚˆİ™\ˆİ]\ÈšYÙÙ\ˆ[ˆ[XİšXÈ›ÛÛNˆ›Ş\ÚYİÎˆMœ™Ø˜JLNKMK
+X‚‹H
+Š”ÙXÛÛ™\HÈÚÜİ
+Šˆ˜XÚÙÜ›İ[™™Ø˜JMKMKMKŒÊX›Ü™\ˆ\ÛÛYÌ˜L˜LØX^ÙŒŒXˆİ™\ˆ˜XÚÙÜ›İ[™™Ø˜JLNKMKŒ
+X›Ü™\ˆÛÛÜˆÍ˜ÍŒÙ™˜‚‹H
+Š’XÛÛˆXİ[ÛœÊŠˆÌÌœÜ]Z\˜ÛH]ÛœÈÚ]İXH\ÛÛY˜[œÜ\™[›Ü™\œÈ][[Z[˜]HÚ]›Ü™\ˆÌ˜L˜LØX[™^ÙŒŒXÛˆİ™\‹‚‚ˆÈÈÈÚ]][ÛˆÚ\È	ˆ˜YÙ\Â‹H
+Š’[›[™HQÈÚ]][Ûˆ[
+ŠˆZYÚŒ›Û™]œ˜Z[œÈ[Û›Ø
+X™[\ÛX
+KˆY[™Èœˆ›İ[™YNNN\ˆ˜XÚÙÜ›İ[™™Ø˜JŒL‹MÌŒ
+X^ÌXX›Ü™\ˆ\ÛÛY™Ø˜JŒL‹MÌŒÊXˆÛXÚÚ[™ÈÛ[Ûİ\ØÜ›ÛÈ[™YÚYÚÈH[šÙYÚ[šÈ[ˆHšYÚ[œÜXİÜˆ˜]Ù\‹‚‹H
+Š”Ú[Z[\š]HØÛÜ™H[
+ŠˆÛÛ\Xİ[Û›ÜÜXÙHÚ\\Ü^Z[™ÈÙ[X[XÈÛÛ™šY[˜ÙH
+K™Ë‹MŒ‰HX]Ú
+KˆYÚÛÛ™šY[˜ÙH\Ù\ÈX[XØÙ[ÎÈİÈÛÛ™šY[˜ÙH
+IJHİÚ]Ú\È[˜[ZXØ[HÈÙ™™‚‚ˆÈÈÈØ\™È	ˆØİ[Y[›Ù\Â‹HÛ\ÜË\İ\™˜XÙYÛÛZ[™\œÈÚ]\ÛÛYÌ˜L˜LØX‚‹HÜ\šYÚÛÜ›™\ˆİ\Ù\ÈÛİ\˜ÙHØİ[Y[Y]H
+K™Ë‹ˆ8 (ˆŒˆPˆ8 (ˆÚ[šÜØ
+H[ˆX™[\ÛX‚‹Hİ™\ˆİ]NˆÚYÈ›Ü™\ˆÛÛÜˆœ›ÛHÌ˜L˜LØXÈ™Ø˜JLNKMK
+XÚ][ˆX\ÙKZ[‹[İ]˜[œÚ][ÛˆÙˆML\Ë‚‚ˆÈÈÈ[œ]šY[È	ˆ›Û\ÛÛ\ÜÙ\‚‹H
+Š“Û[šKTÙX\˜ÚÈ›Û\›Ş
+Šˆ]]ËY^[™[™ÈØÚÈÚ]˜XÚÙÜ›İ[™™Ø˜JMËMËJX[™˜XÚÙ›Ü›\‹ˆ›Ü™\ˆ\ÛÛYÌ˜L˜LØX‚‹H›Øİ\Èİ]H[œİ[HYÛš]\ÈHÚYÛ˜]\™H[XİšXÈÛİÎˆ›Ü™\‹XÛÛÜˆÍ˜ÍŒÙ™˜Ú]›Ş\ÚYİÎˆ\Í˜ÍŒÙ™‹™Ø˜JLNKMKŒJX‚‹H˜Z[[™ÈÛÛ›ÛXˆİ\Ù\ÈÚÙ[ˆYÙ]Y]\ˆ[™[Ù[İÚ]Ú\œÈ›Ü›X]Y\È[Û›ÜÜXÙHZXÜ›Ë\[Ë‚‚ˆÈÈÈ\İÈ	ˆÚ[šÈ^Ü™\‚‹HZ\›[™H]šY\œÈ™]ÙY[ˆ\İ][\È
+›Ü™\‹X›İÛNˆ\ÛÛY™Ø˜J‹‹NJX
+K‚‹H[\›˜]H™XİÜˆÚ[šÈİ™\ˆİ]\ÈYÚYÚ™[]˜[ÛÛ^X[[™\ÈÚ][ˆ[XİšXÈ\œHYX›Ü™\ˆXØÙ[İš\H
+œÛÛYÍ˜ÍŒÙ™˜
+K‚‚ˆÈÈÈÚXÚØ›Ş\È	ˆÙYÛY[YÙÙÛ\Â‹Hİ\İÛH[˜ÚXÚÙY›Şˆ\ÛÛYÌ˜L˜LØX˜XÚÙÜ›İ[™™Ø˜JŒ‹Œ‹ÌKŠX‚‹HÚXÚÙYİ]Nˆ˜XÚÙÜ›İ[™Í˜ÍŒÙ™˜™X]\š[™ÈHÜš\ÜÚ]HÚXÚÈ™XİÜ‹İ\œ›İ[™YHHœÙ[ZK]˜[œÜ\™[š[™Ë
