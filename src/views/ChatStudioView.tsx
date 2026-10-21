@@ -206,7 +206,7 @@ export const ChatStudioView: React.FC<ChatStudioViewProps> = ({
                           Retrieved Verified Citations ({msg.citations.length} Sources)
                         </span>
                         <div className="flex flex-wrap gap-2">
-                          {msg.citations.map((cit, i) => {
+                          {msg.citations.map((cit: any, i: number) => {
                             const matchedDoc = documents.find((d) => d.title === cit.documentTitle);
                             const matchedChunk = matchedDoc?.chunks.find((c) => c.id === cit.chunkId);
 

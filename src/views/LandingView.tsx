@@ -53,15 +53,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
 
       {/* HERO SECTION */}
       <section className="relative w-full max-w-7xl mx-auto px-4 md:px-8 pt-8 md:pt-16 pb-20 flex flex-col items-center text-center">
-        {/* Status Badge Pill */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#2a2931]/80 border border-[#34343c] backdrop-blur-md shadow-md mb-8">
-          <span className="w-2 h-2 rounded-full bg-[#41eec2] animate-pulse"></span>
-          <span className="font-mono text-[11px] text-[#41eec2] uppercase tracking-widest font-semibold">
-            Enterprise RAG Engine v2.0
-          </span>
-          <span className="text-[#464555] font-mono">•</span>
-          <span className="font-mono text-[12px] text-[#c7c4d8]">PostgreSQL pgvector Grounded</span>
-        </div>
+
 
         {/* Hero Headline */}
         <h1 className="text-[38px] sm:text-[48px] md:text-[54px] md:leading-[62px] text-[#e4e1eb] font-bold tracking-tight max-w-4xl mx-auto mb-6">
